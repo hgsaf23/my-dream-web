@@ -19,9 +19,9 @@ export default defineConfig({
       { 
         text: '🧩 知识版图', 
         items: [
-          { text: 'Web全栈', link: '/pending' },
-          { text: 'AI 智能体', link: '/pending' },
-          { text: '嵌入式开发', link: '/pending' }
+          { text: 'Web全栈', link: '/roadmap/web' },
+          { text: 'AI 智能体', link: '/roadmap/ai' },
+          { text: '嵌入式开发', link: '/roadmap/embedded' }
         ] 
       },
       { text: '🚀 关于我', link: '/about' }
