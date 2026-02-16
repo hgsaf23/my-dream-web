@@ -8,6 +8,8 @@ export default defineConfig({
   title: "赛博永生",
   description: "一个热爱计算机学生的自白：讲讲我自己遇到的八十一难，也带大家看见编程的美",
 
+  ignoreDeadLinks: true, // 忽略死链接
+
 
 
   themeConfig: {
