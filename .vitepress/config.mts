@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/my-dream-web/',
   // 网站语言设置，这会让搜索引擎更好地识别
   lang: 'zh-CN',
   title: "赛博永生",
