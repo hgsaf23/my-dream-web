@@ -29,7 +29,7 @@ export default defineConfig({
       {
         text: '🏁 序章：为什么做这个',
         items: [
-          { text: '我的故事', link: '/intro' },
+          { text: '学习总结', link: '/learning-summary' },
           { text: '编程的美学', link: '/beauty-of-coding' }
         ]
       },
@@ -37,14 +37,13 @@ export default defineConfig({
         text: '📑 避坑手册',
         items: [
           { text: '大一新生避坑指南', link: '/guide/freshman' },
-          { text: '如何辨别垃圾付费课程', link: '/guide/anti-scam' }
         ]
       }
     ],
 
     // 3. 社交链接：建议改成你自己的 GitHub
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/你的用户名' }
+      { icon: 'github', link: 'https://github.com/hgsaf23' }
     ],
 
     // 4. 辅助功能汉化
