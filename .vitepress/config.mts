@@ -1,34 +1,33 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // 基础路径
   base: '/my-dream-web/',
-  // 网站语言设置，这会让搜索引擎更好地识别
+  
+  // 核心防御：强制无视所有死链（包括路径错误）
+  ignoreDeadLinks: true, 
+
   lang: 'zh-CN',
   title: "赛博永生",
-  description: "一个热爱计算机学生的自白：讲讲我自己遇到的八十一难，也带大家看见编程的美",
-
-  ignoreDeadLinks: true, // 忽略死链接
-
-
+  description: "一个热爱计算机学生的自白",
 
   themeConfig: {
-    // 1. 顶部导航栏配置
+    // 导航栏
     nav: [
       { text: '🏠 首页', link: '/' },
-      { text: '🛡️ 避坑指南', link: '/intro' }, // 这里的 /intro 对应你根目录下的 intro.md
+      { text: '🛡️ 避坑指南', link: '/intro' }, 
       { 
         text: '🧩 知识版图', 
         items: [
-          { text: 'Web全栈', link: '/roadmap/web' },
-          { text: 'AI 智能体', link: '/roadmap/ai' },
-          { text: '嵌入式开发', link: '/roadmap/embedded' }
+          { text: 'Web全栈', link: '/pending' },
+          { text: 'AI 智能体', link: '/pending' },
+          { text: '嵌入式开发', link: '/pending' }
         ] 
       },
       { text: '🚀 关于我', link: '/about' }
     ],
 
-    // 2. 侧边栏配置（左侧文章目录）
+    // 侧边栏
     sidebar: [
       {
         text: '🏁 序章：为什么做这个',
@@ -45,19 +44,8 @@ export default defineConfig({
       }
     ],
 
-    // 3. 社交链接：建议改成你自己的 GitHub
     socialLinks: [
       { icon: 'github', link: 'https://github.com/hgsaf23' }
-    ],
-
-    // 4. 辅助功能汉化
-    docFooter: {
-      prev: '上一篇',
-      next: '下一篇'
-    },
-    outline: {
-      label: '本页目录'
-    },
-    lastUpdatedText: '最后更新时间'
+    ]
   }
 })
