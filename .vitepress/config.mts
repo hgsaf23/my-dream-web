@@ -19,6 +19,7 @@ export default defineConfig({
       { 
         text: '🧩 知识版图', 
         items: [
+        { text: '浅谈C语言', link: '/roadmap/c' },
           { text: 'Web全栈', link: '/roadmap/web' },
           { text: 'AI 智能体', link: '/roadmap/ai' },
           { text: '嵌入式开发', link: '/roadmap/embedded' }
@@ -35,6 +36,15 @@ export default defineConfig({
           { text: '学习总结', link: '/learning-summary' },
           { text: '编程的美学', link: '/beauty-of-coding' }
         ]
+      },
+      { 
+        text: '🧩 知识版图', 
+        items: [
+        { text: '浅谈C语言', link: '/roadmap/c' },
+          { text: 'Web全栈', link: '/roadmap/web' },
+          { text: 'AI 智能体', link: '/roadmap/ai' },
+          { text: '嵌入式开发', link: '/roadmap/embedded' }
+        ] 
       },
       {
         text: '📑 避坑手册',
