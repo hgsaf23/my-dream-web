@@ -15,6 +15,9 @@ hero:
     - theme: brand
       text: 关于我
       link: /about
+    - theme: brand
+      text: 编程的真相
+      link: /guide/knowledge
 
 features:
   - title: 🛡️ 避坑指南

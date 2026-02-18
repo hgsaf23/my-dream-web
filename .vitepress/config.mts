@@ -76,4 +76,50 @@ export default defineConfig({
       { 
         text: '🧩 知识版图', 
         items: [
-          { text: '浅谈 C 语言',
+          { text: '浅谈 C 语言', link: '/roadmap/c' },
+          { text: 'Web 全栈', link: '/roadmap/web' },
+          { text: 'AI 智能体', link: '/roadmap/ai' },
+          { text: '嵌入式开发', link: '/roadmap/embedded' }
+        ] 
+      },
+      { text: '🚀 关于我', link: '/about' }
+    ],
+
+    // 4. 侧边栏配置
+    sidebar: [
+      {
+        text: '🏁 我个人的学习过程',
+        items: [
+          { text: '学习总结', link: '/learning-summary' },
+          { text: '2025 全栈进化史', link: '/learning-path' },
+        ]
+      },
+      { 
+        text: '🧩 知识版图', 
+        items: [
+          { text: '第一课：推导 Hello World', link: '/roadmap/c' },
+          { text: 'Web 全栈实战', link: '/roadmap/web' },
+          { text: '医疗 AI 50 轮训练记录', link: '/roadmap/ai' },
+          { text: '嵌入式与机器人', link: '/roadmap/embedded' }
+        ] 
+      },
+      {
+        text: '📑 避坑手册',
+        items: [
+          { text: '💀 编程的真相', link: '/guide/knowledge' },
+          { text: '🎓 大一新生突围指南', link: '/guide/freshman' },
+        ]
+      }
+    ],
+
+    // 5. 社交链接 (就是这个图标！)
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/hgsaf23' }
+    ],
+
+    // 6. 辅助功能汉化
+    docFooter: { prev: '上一篇', next: '下一篇' },
+    outline: { label: '本页目录' },
+    lastUpdatedText: '最后更新时间'
+  }
+})
