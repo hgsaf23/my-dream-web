@@ -7,8 +7,14 @@ hero:
   tagline: 一个热爱计算机学生的自白：讲讲我遇到的八十一难，也带你看见编程的美。
   actions:
     - theme: brand
-      text: 开启避坑之旅
+      text: 开启我的学习之路
+      link: /roadmap/c
+    - theme: brand
+      text: 奇奇怪怪的知识
       link: /intro
+    - theme: brand
+      text: 关于我
+      link: /about
 
 features:
   - title: 🛡️ 避坑指南

@@ -15,7 +15,6 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '🏠 首页', link: '/' },
-      { text: '🛡️ 避坑指南', link: '/intro' }, 
       { 
         text: '🧩 知识版图', 
         items: [
@@ -31,12 +30,13 @@ export default defineConfig({
     // 侧边栏
     sidebar: [
       {
-        text: '🏁 序章：为什么做这个',
+        text: '🏁我个人的学习过程',
         items: [
           { text: '学习总结', link: '/learning-summary' },
-          { text: '编程的美学', link: '/beauty-of-coding' }
+          { text: '学习历程', link: '/learning-path' },
         ]
       },
+
       { 
         text: '🧩 知识版图', 
         items: [
