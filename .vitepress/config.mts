@@ -76,8 +76,7 @@ export default defineConfig({
       { 
         text: '🧩 知识版图', 
         items: [
-          { text: '序言', link: '/roadmap/c-0' },
-          { text: '浅谈 C 语言', link: '/roadmap/c-1' },
+          { text: '浅谈 C 语言', link: '/roadmap/c-0' },
         ] 
       },
       { text: '🚀 关于我', link: '/about' }
@@ -93,7 +92,7 @@ export default defineConfig({
         ]
       },
       { 
-        text: '🧩 C语言', 
+        text: '🧩 浅谈C语言', 
         items: [
           { text: '序言', link: '/roadmap/c-0' },
           { text: '第一课：推导 Hello World', link: '/roadmap/c-1' },
