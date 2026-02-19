@@ -76,10 +76,8 @@ export default defineConfig({
       { 
         text: '🧩 知识版图', 
         items: [
-          { text: '浅谈 C 语言', link: '/roadmap/c' },
-          { text: 'Web 全栈', link: '/roadmap/web' },
-          { text: 'AI 智能体', link: '/roadmap/ai' },
-          { text: '嵌入式开发', link: '/roadmap/embedded' }
+          { text: '序言', link: '/roadmap/c-0' },
+          { text: '浅谈 C 语言', link: '/roadmap/c-1' },
         ] 
       },
       { text: '🚀 关于我', link: '/about' }
@@ -95,12 +93,20 @@ export default defineConfig({
         ]
       },
       { 
-        text: '🧩 知识版图', 
+        text: '🧩 C语言', 
         items: [
-          { text: '第一课：推导 Hello World', link: '/roadmap/c' },
-          { text: 'Web 全栈实战', link: '/roadmap/web' },
-          { text: '医疗 AI 50 轮训练记录', link: '/roadmap/ai' },
-          { text: '嵌入式与机器人', link: '/roadmap/embedded' }
+          { text: '序言', link: '/roadmap/c-0' },
+          { text: '第一课：推导 Hello World', link: '/roadmap/c-1' },
+        ] 
+      },
+      { 
+        text: '🧩 Java语言', 
+        items: [
+        ] 
+      },
+      { 
+        text: '🧩 Pythpn语言', 
+        items: [
         ] 
       },
       {

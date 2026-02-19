@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 开启我的学习之路
-      link: /roadmap/c
+      link: /roadmap/c-0
     - theme: brand
       text: 奇奇怪怪的知识
       link: /intro
